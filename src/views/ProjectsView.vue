@@ -1,30 +1,30 @@
 <template>
-  <div class="home">
-    <Home />
+  <div class="projects">
+    <Projects />
   </div>
 </template>
 
 <script>
-import Home from "@/components/Home.vue";
+import Projects from "@/components/Projects.vue";
 
 export default {
-  name: "HomeView",
+  name: "ProjectsView",
   components: {
-    Home,
+    Projects,
   },
 };
 </script>
 
 <style scoped>
-.home {
+.projects {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background: rgb(255, 60, 165);
+  background: rgb(60, 255, 141);
   background: radial-gradient(
     circle,
-    rgba(255, 60, 165, 1) 5%,
-    rgba(255, 153, 208, 1) 17%,
+    rgb(25, 202, 98) 5%,
+    rgb(169, 250, 175) 17%,
     rgba(255, 255, 255, 1) 54%
   );
 }
