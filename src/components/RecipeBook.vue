@@ -1,15 +1,13 @@
 /* eslint-disable */
 <template>
   <div class="flex-container">
-    <p>This is a project page</p>
-    <router-link to="/recipes"> Recipes </router-link>
+    <p>This is a recipe book page</p>
   </div>
-  <router-link to="/recipes"> Recipes </router-link>
 </template>
 
 <script>
 export default {
-  name: "ProjectComponent",
+  name: "RecipeBook",
 };
 </script>
 
