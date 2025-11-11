@@ -40,7 +40,7 @@ export default {
 }
 .first {
   font-size: 64px;
-  padding-top: 16%;
+  padding-top: 8%;
   padding-left: 8%;
 }
 .second {

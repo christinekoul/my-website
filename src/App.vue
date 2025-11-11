@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="about">
+  <div id="app" class="background">
     <NavBar />
     <main>
       <router-view />
@@ -154,8 +154,7 @@ body {
 }
 
 /* Push page content below the fixed navbar and keep the main area full-height */
-.about {
-  height: 100vh;
+.background {
   margin: 0;
   padding: 0;
   background: var(--background-color);
