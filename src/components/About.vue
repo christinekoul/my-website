@@ -1,5 +1,5 @@
 <template>
-  <div>This is an about page</div>
+  <div class="flex-container">This is an about page</div>
 </template>
 
 <script>

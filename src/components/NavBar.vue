@@ -34,7 +34,6 @@ export default {
 <style scoped>
 /* Style for the navigation bar */
 .navbar {
-  position: fixed; /* Fixes the navbar at the top */
   top: 0; /* Aligns it to the top */
   left: 0; /* Aligns it to the left */
   right: 0; /* Spans the full width of the screen */
@@ -42,7 +41,7 @@ export default {
   justify-content: space-between; /* Creates space between left and right groups */
   align-items: center;
   color: white;
-  height: 100px;
+  height: var(--navbar-height);
   z-index: 1000;
 }
 

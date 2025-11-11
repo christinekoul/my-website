@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div>
     <About />
   </div>
 </template>
@@ -14,17 +14,4 @@ export default {
   },
 };
 </script>
-<style scoped>
-.about {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background: rgb(255, 216, 60);
-  background: radial-gradient(
-    circle,
-    rgb(255, 216, 60) 5%,
-    rgb(250, 255, 159) 17%,
-    rgba(255, 255, 255, 1) 54%
-  );
-}
-</style>
+<style scoped></style>
